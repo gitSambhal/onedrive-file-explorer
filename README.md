@@ -16,7 +16,7 @@ To get started with the OneDrive File Explorer, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/onedrive-file-explorer.git
+git clone https://github.com/gitSambhal/onedrive-file-exprorer
 ```
 
 Navigate to the project directory:
@@ -37,7 +37,7 @@ Start the development server:
 npm run dev
 ```
 
-The app will be running at http://localhost:3000.
+The app will be running at http://localhost:5173.
 
 ## Building for Production
 
