@@ -44,11 +44,11 @@ export const LoginPage = () => {
     const url =
       'https://login.microsoftonline.com/common/oauth2/v2.0/authorize?';
     const options = {
-      client_id: 'd278946c-dd14-4221-bb3a-ae6b52d6effe',
+      client_id: import.meta.env.VITE_CLIENT_ID,
       response_type: 'token',
       // redirect_uri: encodeURIComponent('https://jwt.ms'),
       redirect_uri: encodeURIComponent(
-        'https://vitejsvite52txau-asyw--5173--dc4d7514.local-credentialless.webcontainer.io/auth_token'
+        import.meta.env.VITE_REDIRECT_URI ?? 'http://localhost:5173/auth_token'
       ),
       scope: 'user.read files.read files.read.all sites.read.all',
     };
