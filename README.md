@@ -25,6 +25,12 @@ Navigate to the project directory:
 cd onedrive-file-explorer
 ```
 
+Create `.env` file
+```bash
+npm run env:generate
+```
+Update the `.env` file if required.
+
 Install the dependencies:
 
 ```bash
