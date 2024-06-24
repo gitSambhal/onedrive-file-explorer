@@ -58,7 +58,11 @@ export const SingleFile = ({}) => {
         {!!permissions.length && <div>Shared with</div>}
 
         {permissions.map((v: any) => {
-          return <div key={v.id}>{v.grantedTo?.user?.id}</div>;
+          return (
+            <li key={v.id}>
+              {v.grantedTo?.user?.displayName} {v.grantedTo?.user?.email}
+            </li>
+          );
         })}
       </div>
     </div>
