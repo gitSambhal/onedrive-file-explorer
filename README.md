@@ -16,7 +16,7 @@ To get started with the OneDrive File Explorer, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/gitSambhal/onedrive-file-exprorer
+git clone https://github.com/gitSambhal/onedrive-file-explorer
 ```
 
 Navigate to the project directory:
